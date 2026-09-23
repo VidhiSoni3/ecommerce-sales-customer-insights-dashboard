@@ -119,6 +119,7 @@ Open Command Prompt or Terminal in the project folder and run:
 
 ```bash
 pip install -r requirements.txt
+
 ### Step 3: Run the Dashboard
 
 Run the following command:
