@@ -4,13 +4,13 @@
 
 This project analyzes e-commerce sales data to understand sales performance, profitability, product performance, and regional performance.
 
-The project converts raw sales data into useful business insights through data analysis and visualization.
+The project converts raw sales data into useful business insights through data analysis and visualization using Python and Streamlit.
 
 ## 2. Problem Statement
 
 E-commerce businesses generate large amounts of sales data. Without proper analysis, it can be difficult to identify high-performing products, profitable categories, strong regions, and areas that need improvement.
 
-This project analyzes e-commerce data and presents the results through an interactive dashboard.
+This project analyzes e-commerce data and presents the results through an interactive dashboard to support data-driven business decisions.
 
 ## 3. Objectives
 
@@ -20,13 +20,17 @@ This project analyzes e-commerce data and presents the results through an intera
 - Analyze sales across different regions.
 - Identify top-selling and profitable products.
 - Analyze monthly sales trends.
+- Analyze product and regional profitability.
 - Generate useful business insights and recommendations.
 
 ## 4. Dataset
 
-The dataset contains e-commerce transaction information.
+The dataset used in this project is the **E-Commerce Orders and Sales Performance Dataset** from Kaggle.
 
-### Main Columns
+**Dataset Link:**  
+https://www.kaggle.com/datasets/zahranusratt/e-commerce-orders-and-sales-performance-dataset
+
+The dataset contains **3,500 transactions** and the following columns:
 
 - Order Date
 - Product Name
@@ -35,8 +39,6 @@ The dataset contains e-commerce transaction information.
 - Quantity
 - Sales
 - Profit
-
-The dataset contains 3,500 transactions.
 
 ## 5. Technologies Used
 
@@ -47,7 +49,7 @@ The dataset contains 3,500 transactions.
 
 ## 6. Key Performance Indicators
 
-The dashboard displays:
+The dashboard displays the following KPIs:
 
 - Total Sales
 - Total Profit
@@ -57,20 +59,33 @@ The dashboard displays:
 ## 7. Dashboard Features
 
 ### Sales Analysis
+
 - Sales by Category
 - Sales by Region
 - Monthly Sales Trend
 
 ### Profit Analysis
+
 - Profit by Category
 - Profit by Region
+- Profit by Product
 
 ### Product Analysis
+
 - Sales by Product
 - Profit by Product
 
+### Dataset Analysis
+
+- Number of transactions
+- Number of columns
+- Total quantity sold
+- Date range
+- Missing-value check
+
 ### Business Insights
-The dashboard provides key findings and recommendations based on the analysis.
+
+The dashboard provides key findings and business recommendations based on the analysis.
 
 ## 8. Key Findings
 
@@ -82,9 +97,25 @@ The dashboard provides key findings and recommendations based on the analysis.
 - West generates the highest regional profit.
 - The average order value is approximately ₹3,047.97.
 
-## 9. How to Run the Project
+## 9. Project Files
 
-### Step 1: Install Required Libraries
+The repository contains the following project files:
+
+- `VidhiSoni_ECommerceSalesCustomerInsightsDashboard.py` — Complete project code and Streamlit dashboard
+- `requirements.txt` — Required Python libraries and dependencies
+- `VidhiSoni_ProjectReport.docx` — Complete project report
+- `README.md` — Project documentation and setup instructions
+- `ecommerce_sales_data (2).csv` — Dataset used for the analysis
+
+## 10. How to Run the Project
+
+### Step 1: Clone or Download the Repository
+
+Download the project repository to your computer.
+
+### Step 2: Install Required Libraries
+
+Open Command Prompt or Terminal in the project folder and run:
 
 ```bash
 pip install -r requirements.txt
