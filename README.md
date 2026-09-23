@@ -119,12 +119,15 @@ Open Command Prompt or Terminal in the project folder and run:
 
 ```bash
 pip install -r requirements.txt
-``` 
+```
+
 ### Step 3: Run the Dashboard
 
 Run the following command:
 
+```bash
 streamlit run VidhiSoni_ECommerceSalesCustomerInsightsDashboard.py
+```
 
 ### Step 4: Open the Dashboard
 
@@ -133,8 +136,25 @@ After running the command, Streamlit will provide a local URL.
 Open the provided URL in a web browser to view the interactive dashboard.
 
 ## 11. Key Business Insights
-...
+
+The analysis shows that Electronics contributes the highest sales and profit among the categories.
+
+The West region records the highest sales and profit among the regions.
+
+Camera is the top-selling as well as the most profitable product.
+
+These findings can support decisions related to inventory planning, marketing focus, regional sales strategies, and product performance monitoring.
+
 ## 12. Business Recommendations
-...
+
+- Maintain sufficient stock of high-performing products.
+- Focus marketing efforts on strong-performing categories.
+- Analyze opportunities to increase sales in lower-performing regions.
+- Monitor product and regional profitability regularly.
+- Use monthly sales trends to support inventory and promotional planning.
+
 ## 13. Conclusion
-...
+
+The project demonstrates how raw e-commerce transaction data can be transformed into meaningful business insights using Python, Pandas, and Streamlit.
+
+The interactive dashboard helps users understand sales, profit, product, and regional performance and supports data-driven business decision-making.
