@@ -119,3 +119,21 @@ Open Command Prompt or Terminal in the project folder and run:
 
 ```bash
 pip install -r requirements.txt
+### Step 3: Run the Dashboard
+
+Run the following command:
+
+streamlit run VidhiSoni_ECommerceSalesCustomerInsightsDashboard.py
+
+### Step 4: Open the Dashboard
+
+After running the command, Streamlit will provide a local URL.
+
+Open the provided URL in a web browser to view the interactive dashboard.
+
+## 11. Key Business Insights
+...
+## 12. Business Recommendations
+...
+## 13. Conclusion
+...
